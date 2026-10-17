@@ -641,6 +641,8 @@ Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by 
 
 - **[deepsec](https://github.com/vercel-labs/deepsec)** `⭐ 8.1k` `[Vercel]` — Agent-powered vulnerability scanner that runs on your own infrastructure. A fast regex matcher pass finds candidate sites, then Claude Agent SDK or Codex agents investigate each one with full shell access to the repo. Resumable runs, cost and duration caps, `--diff` PR mode, and optional fan-out across Vercel Sandbox microVMs. Apache-2.0.
 
+- **[Weave Router](https://github.com/weave-os/router)** `⭐ 5.6k` `[Weave]` — Drop-in proxy for the Anthropic Messages, OpenAI Chat Completions, and Gemini APIs that picks a model for each request with an on-box embedder. Works with Claude Code, Codex, OpenCode, and Pi; self-hostable, BYOK, OTLP traces, npm installer `@weave-os/router`. Go, Apache-2.0.
+
 - **[GitHub Agentic Workflows](https://github.com/github/gh-aw)** `⭐ 5.4k` `[GitHub]` — `gh` extension that compiles Markdown workflows into GitHub Actions running Copilot, Claude Code, Codex, Gemini, or Pi agents against a repo; `init`/`add`/`compile` write lock files locally, `trial` and `run` dispatch and stream logs. Agent jobs are read-only and sandboxed, with writes applied through validated safe-outputs. MIT.
 
 - **[Docker Agent](https://github.com/docker/docker-agent)** `⭐ 4.4k` `[Docker]` — Docker CLI plugin (`docker agent`) and runtime for building multi-agent teams from declarative YAML; built-in filesystem, shell, git, and LSP tools plus any MCP server, provider-agnostic models including local Docker Model Runner, RAG, and agent packaging to OCI registries. Apache-2.0.
